@@ -8,6 +8,7 @@ namespace GuessingGame
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hopefully This Works");
+            Console.WriteLine("Hopefully this DOESN'T WORK!");
         }
 
     }
