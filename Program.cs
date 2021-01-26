@@ -19,7 +19,12 @@ namespace GuessingGame
                 Console.WriteLine("You Won!");
 
             else if (userNumber != testNumber && userNumber != 0 && userNumber != -1)
+                
                 Console.WriteLine("Try Again.");
+            userNumber = Convert.ToInt32(Console.ReadLine());
+            if (userNumber == testNumber)
+                Console.WriteLine("You Won!");
+
 
             else if (userNumber == 0)
             {
